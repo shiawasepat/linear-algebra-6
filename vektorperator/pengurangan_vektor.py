@@ -1,6 +1,10 @@
 # pengurangan vektor
 
 def pengurangan(vek_A, vek_B):
+    T = []
     r1 = vek_A[0] - vek_B[0]
     r2 = vek_A[1] - vek_B[1]
-    print("Penjumlahan vektor : ", r1, ",", r2)
+    T.append(r1)
+    T.append(r2)
+    print("")
+    return T
