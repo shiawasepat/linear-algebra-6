@@ -4,9 +4,10 @@ from vektorperator.dot_product import dot_product
 from vektorperator.panjang_vektor import panjang_vektor
 from vektorperator.vektor_unit import vektor_unit
 
-vek_A = input("Masukkan vektor A : ")
-vek_B = input("Masukkan vektor B : ")
+import time
+import os
 
+os.system("cls")
 def user_input():
     while True:
         print("\nOperasi pada vektor 2D")
@@ -25,6 +26,7 @@ def user_input():
 
         #Input vektor dari pengguna
         try:
+            os.system("cls")
             vek_A = list(map(int, input("Masukkan vektor A (dalam format x,y): ").split(',')))
             vek_B = list(map(int, input("Masukkan vektor B (dalam format x,y): ").split(',')))
         except ValueError:
