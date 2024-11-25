@@ -1,8 +1,8 @@
-from operator_vektor.penjumlahan_vektor import penjumlahan
-from operator_vektor.pengurangan_vektor import pengurangan
-from operator_vektor.dot_product import dot_product
-from operator_vektor.panjang_vektor import panjang_vektor
-from operator_vektor.vektor_unit import vektor_unit
+from vektorperator.penjumlahan_vektor import penjumlahan
+from vektorperator.pengurangan_vektor import pengurangan
+from vektorperator.dot_product import dot_product
+from vektorperator.panjang_vektor import panjang_vektor
+from vektorperator.vektor_unit import vektor_unit
 
 
 A = [2, 3]
