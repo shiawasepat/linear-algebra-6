@@ -14,5 +14,5 @@
 - St Mutmainnah
 
 
-### Bahasa Pemrograman:
-<p><a></a href="https://www.python.org" target="_blank" rel="noreferrer"></p>
+ Bahasa Pemrograman:
+<p align="left"><a href="https://www.python.org" target="_blank" rel="noreferrer"></a></p>
