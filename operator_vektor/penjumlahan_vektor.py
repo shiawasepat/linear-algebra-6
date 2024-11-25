@@ -1,3 +1,0 @@
-# penjumlahan vektor
-
-import math
