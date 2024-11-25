@@ -10,7 +10,7 @@ import os
 os.system("cls")
 def user_input():
     while True:
-        print("\nOperasi pada vektor 2D")
+        print("Operasi pada vektor 2D")
         print("1. Penjumlahan vektor")
         print("2. Pengurangan vektor")
         print("3. Dot Product")
@@ -21,7 +21,9 @@ def user_input():
         pilihan = input("Masukkan nomor 1-6: ")
 
         if pilihan == "6":
-            print("Program selesai.")
+            os.system("cls")
+            print("Mengeluarkan anda")
+            time.sleep(2)
             break
 
         #Input vektor dari pengguna
@@ -34,18 +36,18 @@ def user_input():
             continue
 
         if pilihan == "1":
-            print("Hasil Penjumlahan:", penjumlahan(vek_A, vek_B))
+            print("\nHasil Penjumlahan:", penjumlahan(vek_A, vek_B))
         elif pilihan == "2":
-            print("Hasil Pengurangan:", pengurangan(vek_A, vek_B))
+            print("\nHasil Pengurangan:", pengurangan(vek_A, vek_B))
         elif pilihan == "3":
-            print("Hasil Dot Product:", dot_product(vek_A, vek_B))
+            print("\nHasil Dot Product:", dot_product(vek_A, vek_B))
         elif pilihan == "4":
-            print("Panjang Vektor A:", panjang_vektor(vek_A))
-            print("Panjang Vektor B:", panjang_vektor(vek_B))
+            print("\nPanjang Vektor A:", panjang_vektor(vek_A))
+            print("\nPanjang Vektor B:", panjang_vektor(vek_B))
         elif pilihan == "5":
-            print("Vektor Unit A:", vektor_unit(vek_A))
-            print("Vektor Unit B:", vektor_unit(vek_B))
+            print("\nVektor Unit A:", vektor_unit(vek_A))
+            print("\nVektor Unit B:", vektor_unit(vek_B))
         else:
-            print("Pilihan tidak valid. Silakan coba lagi.")
+            print("\nPilihan tidak valid. Silakan coba lagi.\n")
 
 user_input()
