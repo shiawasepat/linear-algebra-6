@@ -5,9 +5,9 @@
 <h3>Anggota Kelompok:</h3>
 
 - Alvid Putra Purnama 
--  = [Cheryl Callista Liestan](https://github.com/ccerylll) 
+- panjang_vektor = [Cheryl Callista Liestan](https://github.com/ccerylll) 
 - vektor_unit = [Muhammad Rifky Paranrengi](https://github.com/rifk7s)
-- penjumlahan_vektor = [Patrick Shiawase Aruji](https://github.com/shiawasepat)
+- penjumlahan_vektor, pengurangan_vektor, sudut_dua_vektor = [Patrick Shiawase Aruji](https://github.com/shiawasepat)
 - dot_product = [St Mutmainnah](https://github.com/stmutmainnah-amm)
 
 
