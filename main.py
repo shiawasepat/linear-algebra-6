@@ -36,21 +36,21 @@ def user_input():
             print("Input tidak valid, silakan masukkan vektor dalam format x,y.")
             continue
 
-        if pilihan == "1":
+        if pilihan == "1": # fungsi penjumlahan
             print("\nHasil Penjumlahan:", penjumlahan(vek_A, vek_B))
-        elif pilihan == "2":
+        elif pilihan == "2": # fungsi pengurangan
             print("\nHasil Pengurangan:", pengurangan(vek_A, vek_B))
-        elif pilihan == "3":
+        elif pilihan == "3": # fungsi dot product
             print("\nHasil Dot Product:", dot_product(vek_A, vek_B))
-        elif pilihan == "4":
+        elif pilihan == "4": # fungsi panjang vektor
             print("\nPanjang Vektor A:", panjang_vektor(vek_A))
             print("\nPanjang Vektor B:", panjang_vektor(vek_B))
-        elif pilihan == "5":
+        elif pilihan == "5": # fungsi vektor unit
             print("\nVektor Unit A:", vektor_unit(vek_A))
             print("\nVektor Unit B:", vektor_unit(vek_B))
-        elif pilihan == "6":
+        elif pilihan == "6": # fungsi sudut antara vektor
             print("\nSudut antara vektor (dalam derajat):", sudut_antara_vektor(vek_A, vek_B))
-        else:
+        else: # pilihan tidak valid
             print("\nPilihan tidak valid. Silakan coba lagi.\n")
 
 user_input()
