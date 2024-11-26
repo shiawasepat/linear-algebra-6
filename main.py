@@ -3,6 +3,7 @@ from vektorperator.pengurangan_vektor import pengurangan
 from vektorperator.dot_product import dot_product
 from vektorperator.panjang_vektor import panjang_vektor
 from vektorperator.vektor_unit import vektor_unit
+from vektorperator.sudut_vektor import sudut_antara_vektor
 
 import time
 import os
@@ -16,11 +17,11 @@ def user_input():
         print("3. Dot Product")
         print("4. Panjang Vektor")
         print("5. Vektor Unit")
-        print("6. Keluar")
+        print("6. Sudut Antara Vektor")
+        print("7. Keluar")
+        pilihan = input("Masukkan nomor 1-7: ")
 
-        pilihan = input("Masukkan nomor 1-6: ")
-
-        if pilihan == "6":
+        if pilihan == "7":
             os.system("cls")
             print("Mengeluarkan anda")
             time.sleep(2)
@@ -47,6 +48,8 @@ def user_input():
         elif pilihan == "5":
             print("\nVektor Unit A:", vektor_unit(vek_A))
             print("\nVektor Unit B:", vektor_unit(vek_B))
+        elif pilihan == "6":
+            print("\nSudut antara vektor (dalam derajat):", sudut_antara_vektor(vek_A, vek_B))
         else:
             print("\nPilihan tidak valid. Silakan coba lagi.\n")
 
